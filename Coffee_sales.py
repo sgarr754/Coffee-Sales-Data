@@ -15,7 +15,7 @@ print(num_row)
 # what are the header columns? return only the headers
 print(df.head(0))
 
-# Drop any rows with NULL values
+# Drop any rows with NULL values.
 # When counting the new datframe, the smae amount of rows came up, so we can understand that there are no rows with any NULL values
 newdf = df.dropna()
 new_num_row = len(newdf)
