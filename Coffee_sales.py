@@ -4,7 +4,7 @@ df = pd.read_csv('Coffee_sales.csv')
 
 # print(df.to_string()) #Print whole dataset
 
-# -------------------------------------------------------
+# ------------------------------------------------------
 # Understand the dataset
 
 # Before: Lets see how many rows of data is in the dataset
