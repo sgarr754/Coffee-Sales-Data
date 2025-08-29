@@ -15,7 +15,7 @@ def clean_data(df):
     # print("---")
 
 # Are there any Na values?
-    is_na = df.isna().sum()
+    # is_na = df.isna().sum()
     # print(is_na)
     # print("---")
 
@@ -31,7 +31,11 @@ def clean_data(df):
     df["Time"] = pd.to_datetime(df["Time"].str.split(".").str[0], format="%H:%M:%S").dt.time
 
     # print(df.dtypes)
-    # print(df.head())
+
+# Fiscal year starts March 1. Arranging the Monthsort column to start in March and dropping any dates after March 1, 2025
+    df["Fiscalmonth"] = ((df["Monthsort"] - 3) % 12) + 1
+
+    df = df[df['Date'] < '2025-03-01']
 
 # Finding duplicates
     # print(df.duplicated().sum())
