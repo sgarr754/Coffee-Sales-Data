@@ -1,12 +1,15 @@
 import pandas as pd
 from src.data_cleaning import clean_data
 from src.analysis import analysis
+from src.visualization import visual
 
 df = pd.read_csv('Coffee_sales.csv')
 pd.set_option('display.max_rows', None)
 
 df = clean_data(df)
 stats = analysis(df)
+
+visual(df)
 
 print("\nDrink types and average prices")
 print(stats["prices"])
@@ -41,6 +44,8 @@ print(stats["weekly_drinks"])
 print("\nType of rinks sold during the week annually")
 print(stats["weekday_drink_types"])
 
+print("\nPayment type")
 print(stats["payment_type"])
 
+print("\nDaily sales")
 print(stats["daily_sales"])
