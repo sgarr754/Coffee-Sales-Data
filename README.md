@@ -7,12 +7,12 @@ This project explores a coffee shop dataset that covers transaction records, bev
 
 The dataset used is specifically made for data visualization, dashboard building, and business analytics projects in tools like Power BI, Tableau, and Python visualization libraries (Coffee Sales Dataset, Kaggle). 
 
-- **Dataset Source**: Kaggle [Coffee Sales Dataset]([https://www.kaggle.com](https://www.kaggle.com/datasets/navjotkaushal/coffee-sales-dataset)).
+- **Dataset Source**: Kaggle [Coffee Sales Dataset](https://www.kaggle.com/datasets/navjotkaushal/coffee-sales-dataset).
 - **Langauge**: Python
 - **Libraries**: Pandas and Matplotlib
 
 ## Data Dictionary
-Copied via [Coffee Sales Dataset (Kaggle)]([https://www.kaggle.com](https://www.kaggle.com/datasets/navjotkaushal/coffee-sales-dataset)).
+Copied via [Coffee Sales Dataset (Kaggle)](https://www.kaggle.com/datasets/navjotkaushal/coffee-sales-dataset).
 
 | **Variable** | **Explanation** |
 |--------------|------------------|
