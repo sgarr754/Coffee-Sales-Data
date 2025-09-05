@@ -14,7 +14,7 @@ def analysis(df):
 
     # ----------Months----------
 
-    # How many drinks are bought in each month? How much is the monthly revenue?
+    # How many drinks are bought in each month? How much are the monthly sales?
     monthly_drinks = (
         df.groupby(['Fiscalmonth', 'Month_name'])['money']
         .agg(['count','sum'])
