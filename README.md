@@ -31,7 +31,7 @@ Copied via [Coffee Sales Dataset (Kaggle)](https://www.kaggle.com/datasets/navjo
 ## Exploratory Data Analysis (EDA)
 ### Average Drink Prices
 From the table below we can see the average price people pay, and which drinks are over CAD$35.00 (As prices are in local currency, CAD is used here): 
-  1. Cappacino
+  1. Cappucino
   2. Hot Chocolate
   3. Cocoa
   4. Latte
@@ -67,7 +67,7 @@ The weekdays are shown to have a higher number of drinks bought in comparison to
 <img width="700" height="500" alt="weekly_num_drinks" src="https://github.com/user-attachments/assets/f4cc4f01-ec53-4294-9781-93753d55275f" />
 
 ---
-### Annual umber of drinks bought Time of Day (TOD) and per hour
+### Annual Number of drinks bought Time of Day (TOD) and per hour
 The two tables below display peak hours in the year.
 
 Time of Day (TOD) can be broken down into these hours:
@@ -92,20 +92,20 @@ Each graph displayed will also show which are the top 3 most bought drinks that 
 ### October
 Most popular drinks:
 1. Lattes
-2. Americno with Milk
+2. Americano with Milk
 3. Hot Chocolate
 <img width="700" height="400" alt="October" src="https://github.com/user-attachments/assets/b85651b2-ec77-4f61-8969-22049f3d516d" />
 
 ### February
 Most popular drinks:
 1. Americano
-2. Americno with Milk
+2. Americano with Milk
 3. Cocoa
 <img width="700" height="400" alt="February" src="https://github.com/user-attachments/assets/a4646c9b-34dd-4a6a-9825-f3dc63326653" />
 
 ### April
 Most popular drinks:
-1. Americno with Milk
+1. Americano with Milk
 2. Cappucino
 3. Americano
 <img width="700" height="400" alt="April" src="https://github.com/user-attachments/assets/5b22a138-a75b-47d1-8e24-3a839d8b7bac" />
