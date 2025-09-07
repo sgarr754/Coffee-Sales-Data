@@ -116,7 +116,7 @@ The three graphs below display the first two months that were previously shown t
 
 Each graph shows the sales of each day in that month.
 
-The month of May shows missing dates. This could be for a number of reasons (no transactions made that day, store closed, broken equipment, etc.)
+The month of May shows missing dates (2024-05-01, 2024-05-04, 2024-05-05). Reasons for no record of a transaction could be for a number of reasons (no transactions made that day, store closed, broken equipment, etc.), but was added to showcase missing dates.
 
 ### October
 <img width="900" height="400" alt="October" src="https://github.com/user-attachments/assets/19691af6-93b8-465d-91c7-bf17e149556a" />
