@@ -66,6 +66,19 @@ def visual (df):
     plt.tight_layout()
     plt.show()
 
+    # Drinks bought each day of the week
+    plt.figure(figsize=(8, 6))
+    data=stats["weekly_drinks"]['count']
+    data.index = data.index.droplevel([0]) 
+    data.plot(kind="bar", color='lightskyblue', zorder=2)
+    plt.title("Number of Drinks bought in the Week (Annual)")
+    plt.xlabel("Day of the Week")
+    plt.ylabel("Number of drinks bought")
+    plt.xticks(rotation=0)
+    plt.grid(axis ='y', zorder=1)
+    plt.tight_layout()
+    plt.show()
+
     # Types of drinks sold each month
     # Creating a forloop to loop through each month and create separate charts
     for (fiscal_month, month_name), data in stats['monthly_drink_type'].groupby(level=[0,1], sort =False):
