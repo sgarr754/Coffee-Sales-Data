@@ -30,7 +30,9 @@ Copied via [Coffee Sales Dataset (Kaggle)](https://www.kaggle.com/datasets/navjo
 
 ## Exploratory Data Analysis (EDA)
 ### Average Drink Prices
-From the table below we can see the average price people pay, and which drinks are over CAD$35.00 (As prices are in local currency, CAD is used here): 
+From the table below we can see the average price people pay for each beverage type, and which drinks are over CAD$35.00 (As prices are in local currency, CAD is used here). 
+
+The top 4 most expensive drinks on average:
   1. Cappucino
   2. Hot Chocolate
   3. Cocoa
@@ -62,7 +64,7 @@ The sales graph shown for each month follow the bar graph of the number of drink
 ### Annual number of drinks bought in the weekday
 The table below displays the number of drinks bought in the week throughout the year. 
 
-The weekdays are shown to have a higher number of drinks bought in comparison to the weekends.
+The weekdays are shown to have a higher number of drinks bought in comparison to the weekends. Tuesdays and Mondays are the highest respectively as they indicate the start of the working week (Tuesday's being higher as 'Work from Home' days are either Monday or Friday).
 
 <img width="700" height="500" alt="weekly_num_drinks" src="https://github.com/user-attachments/assets/f4cc4f01-ec53-4294-9781-93753d55275f" />
 
@@ -114,7 +116,7 @@ Most popular drinks:
 ### Daily Sales
 The three graphs below display the first two months that were previously shown to have the highest [sales and number of drinks bought](#Sales_Num_Drink) (October, February), the month with the lowest sales and number of drinks bought (April), and the month of May.
 
-Each graph shows the sales of each day in that month.
+Each graph shows the sales of each day in that month, with a circle marker indicating the sale made that day. A day with no circle marker indicates no sales made that day.
 
 The month of May shows missing dates (2024-05-01, 2024-05-04, 2024-05-05). Reasons for no record of a transaction could be for a number of reasons (no transactions made that day, store closed, broken equipment, etc.), but was added to showcase missing dates.
 
@@ -129,3 +131,81 @@ The month of May shows missing dates (2024-05-01, 2024-05-04, 2024-05-05). Reaso
 
 ### May
 <img width="900" height="400" alt="May" src="https://github.com/user-attachments/assets/67d06f47-f16c-49fd-b077-8a99eec7951e" />
+
+## Improvements and Solutions
+
+Improvement of sales would only apply for beverages and would not include food or company merchandise.
+
+### 1. Increasing sales in the Spring and Summer Seasons
+The graphs below are from [Annual Sales and Number of drinks bought per Month](#Sales_Num_Drink). Starting from March to August are the Spring and Summer seasons. From the graphs below, those months have low to average sales and the number of drinks bought in comparison to the colder seasons. A way to increase sales during those months would be to include the following options:
+
+1. Seasonal Summer Drinks (fruit, iced teas, iced coffee)
+2. Seasonal/Monthly/Weekly Spring and Summer promotions highlighting seasonal fruits or teas popular within those seasons (BOGO, Sale prices)
+
+<img width="500" height="400" alt="annual_sales" src="https://github.com/user-attachments/assets/700b0424-cc6b-4d63-b49b-b907d7338063" />
+<img width="500" height="400" alt="num_drinks_per_month" src="https://github.com/user-attachments/assets/7ec4371f-6b5e-4213-a5d6-0fdf25e89625" />
+
+### 2. Increasing sales in November and December
+As per from the previous graph of the Annual Sales and Number of drinks bought per Month, November and December display a decrease in sales after the month of October. October is known to be the most popular Fall month in the year, with its popularity in pumpkin spice seasoned beverages.
+
+A way to increase sales for the month of November and December would be to have seasonal promotions during the Christmas and New Years holiday. Similar to the improvements mentioned from the Spring and Summer months, the following improvements for November and December can include:
+1. Christmas-themed Drinks (white and peppermint hot chocolate, peppermint tea, gingerbread seasoning)
+2. Christmas and New Year's promotions highlighting seasonal flavours and seasonings (BOGO, Sale prices)
+
+### 3. Introducing a points/reward system
+A new points/reward system where customers can receive a free beverage of any size, type, and with add-ons. These free beverages can be claimed either by buying 5 beverages, or by gaining points. 
+
+These rewards would be claimed by claiming a physical card from a store in-person, or by creating an account under the company app (customers may be able to link their physical card when making an account under the app). 
+
+## Conclusion
+### Top 4 most expensive drinks on average: 
+  1. Cappuccino
+  2. Hot Chocolate
+  3. Cocoa
+  4. Latte
+
+### Top 4 most popular drinks bought (sales vs number of drinks bought):
+| **Sales**            | **Number of drinks bought** |
+|----------------------|------------------|
+| Latte                | Americano with Milk |
+| Americano with Milk  | Latte |
+| Cappucino            | Americano |
+| Americano            | Cappucino|
+
+### Weekday sales
+Tuesday has the highest activity followed by Monday as they indicate the start of the working week. Tuesdays being higher than Monday can indicate 'Work from Home' days are still in effect and are either Mondays or Fridays.
+
+### Drinks bought during peak hours or TOD
+Peak hours are shown to be at 10 am, with a significant increase in numbers starting from 7 am - 8 am. 
+
+Although indicated in the TOD graph, Night is shown to have higher number of drinks bought in comparison to the Morning despite having the peak hour (10 am) within its TOD, Night has higher TOD activity as there are more customers buying within the 6 hours compared to the Morning 6 hours, where the first two hours of store operations are less than 100 total in the year.
+
+### Types of Drinks bought in the month
+October and February are the months with the highest sales and number of drinks bought. 
+
+Latte's being the most popular beverage in October can indicate the new Fall season and weather changes coming and hot beverages being more popular during the colder seasons. 
+
+Americano being the most popular beverage in February followed by Americano's with Milk.
+
+April is the month with the lowest sales and number of drinks bought in the year. Americano's with Milk is the most popular beverage in the month, but shows that only 37 Americano's with Milk have been bought that month, while October and February are shown to sell more than 115 of their most popular beverage that month.
+
+### Daily Sales
+Daily sales show each day of the month and the sales made that month. Each graph shows a circle marker indicating the sale made that day. A day with no circle marker indicates no sales made that day.
+
+The month of May has shown days missing as there is no circle marker indicating its sales day and its date missing from the x axis of the table.
+
+The missing dates can be due to multiple reasons: 
+1. no transactions made that day
+2. store closed
+3. broken equipment
+
+There maybe other reasons for missing dates that have not been mentioned before.
+
+### Improvements 
+Ways to increase beverage sales include:
+1. Seasonal beverages (colder beverages in Spring and Summer, and festive drinks in November and December)
+2. Seasonal/Monthly/Weekly Promotions
+3. Points/Reward system
+
+## Additional Notes
+The dataset used does not disclose where this information was collected. It does not indicate the location of where the data is collected and anything mentioned in the findings and report are solely based on local information for those using the dataset.
